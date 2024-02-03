@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_home">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/tour_bd_home_logo_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:shadowColor="#FFFFFF"
+                android:shadowDx="7"
+                android:shadowDy="5"
+                android:shadowRadius="5"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="@string/heading_2"
+                android:fontFamily="@font/alinur_bashundhara"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:columnOrderPreserved="false"
+                android:minHeight="465dp"
+                android:padding="3dp"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_marginBottom="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/home_explore"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/shadow_effect"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/explore" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="80dp"
+                            android:fontFamily="@font/shamim_cholontika"
+                            android:gravity="center"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="7"
+                            android:shadowDy="5"
+                            android:shadowRadius="5"
+                            android:text="এক্সপ্লোর"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25dp" />
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_marginBottom="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/home_popular_place"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/shadow_effect"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/popular_place"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="80dp"
+                            android:fontFamily="@font/shamim_cholontika"
+                            android:gravity="center"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="7"
+                            android:shadowDy="5"
+                            android:shadowRadius="5"
+                            android:text="জনপ্রিয় স্থান"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25dp" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_marginBottom="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+
+                            android:id="@+id/home_hotel_resort"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/shadow_effect"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/hotel_resort"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="7"
+                            android:shadowDy="5"
+                            android:shadowRadius="5"
+                            android:gravity="center"
+                            android:layout_marginTop="80dp"
+                            android:fontFamily="@font/shamim_cholontika"
+                            android:text="হোটেল রিসোর্ট"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25dp" />
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_marginBottom="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/home_tour_plan"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/shadow_effect"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/travel_plan"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="7"
+                            android:shadowDy="5"
+                            android:shadowRadius="5"
+                            android:gravity="center"
+                            android:layout_marginTop="80dp"
+                            android:fontFamily="@font/shamim_cholontika"
+                            android:text="ট্যুর প্ল্যান"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25dp" />
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_marginBottom="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/home_travel_tips"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/shadow_effect"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/travel_tips"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="7"
+                            android:shadowDy="5"
+                            android:shadowRadius="5"
+                            android:gravity="center"
+                            android:layout_marginTop="80dp"
+                            android:fontFamily="@font/shamim_cholontika"
+                            android:text="ট্রাভেল টিপস"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25dp" />
+
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_marginBottom="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/home_request"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:foreground="@drawable/shadow_effect"
+                            android:src="@drawable/request"
+
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="7"
+                            android:shadowDy="5"
+                            android:shadowRadius="5"
+                            android:gravity="center"
+                            android:layout_marginTop="80dp"
+                            android:fontFamily="@font/shamim_cholontika"
+                            android:text="রিকুয়েস্ট"
+                            android:textColor="#FFFFFF"
+                            android:textSize="25dp" />
+
+
+
+                    </RelativeLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+        </LinearLayout>
+
+
+
+
+</FrameLayout>

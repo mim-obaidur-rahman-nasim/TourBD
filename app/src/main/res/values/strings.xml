@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TourBD</string>
+    <string name="txt1">© 482646 – 2022</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="heading_1">ট্যুর বিডি</string>
+    <string name="heading_2">ভ্রমণপিয়াসীদের আদর্শ গাইডলাইন</string>
+    <string name="menu_heading">মেনু</string>
+
+
+</resources>

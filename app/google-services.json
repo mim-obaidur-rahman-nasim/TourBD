@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "313025589103",
+    "firebase_url": "https://tourbd05-default-rtdb.firebaseio.com",
+    "project_id": "tourbd05",
+    "storage_bucket": "tourbd05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313025589103:android:78bce5b61ca6047ac1829a",
+        "android_client_info": {
+          "package_name": "com.nhs.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313025589103-8eisp408dn1tc5lo0fberntp7crijvem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZlN1mNayQNn39gCfkMdnaoskFOcEplUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313025589103-8eisp408dn1tc5lo0fberntp7crijvem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313025589103:android:59528a2015240e9ac1829a",
+        "android_client_info": {
+          "package_name": "com.nhs.tourbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313025589103-8eisp408dn1tc5lo0fberntp7crijvem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZlN1mNayQNn39gCfkMdnaoskFOcEplUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313025589103-8eisp408dn1tc5lo0fberntp7crijvem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
